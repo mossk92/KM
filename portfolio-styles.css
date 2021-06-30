@@ -1,0 +1,408 @@
+*{
+    /* border: 1px solid grey; */
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    width: 100%;
+    margin: auto;
+    color: black;
+    background: white;
+    position:relative; 
+    min-height: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #2c4292;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-top: 30px;
+}
+
+nav a {
+    color: white;
+    font-variant: small-caps;
+    font-size: 15px;
+    padding: 8px;
+    border-left: 1px solid grey;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    width: 80px;
+    font-style: normal;
+}
+
+#last-nav{
+    border-right: 1px solid grey;
+}
+
+#active-page {
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+body {
+    margin-bottom:90px
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 200px;
+    font-size: 50px;
+    font-family: 'Bradley Hand', 'Calligraffitti', cursive;
+}
+
+h2 {
+    color: white;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Bradley Hand', cursive;
+    font-variant: small-caps;
+}
+
+#contact-title{
+    text-align: center;
+    margin-top: 150px;
+}
+
+#about-title{
+    text-align: center;
+    margin-top: 150px;
+}
+
+#page-title{
+    text-align: center;
+    margin-top: 150px;
+}
+
+#portfolio-title{
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 90px;
+    background-color: #2c4292;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footcolumn {
+    width: 20%;
+    padding: 1%;
+    margin: 5px;
+    display: inline-block;
+    height: 80px;
+}
+
+.logocolumn,
+.pagecolumn,
+.contactcolumn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#logofoot {
+    max-width: 50px;
+    border-radius: 100%;
+    border: 4px solid black;
+}
+
+footer p {
+    max-width: 80%;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+footer a,
+footer p {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#linkinfoot,
+#contactfoot {
+    margin-left: 20px;
+}
+
+nav a:hover {
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 8px;
+    box-shadow: 8px 8px 4px black;
+    background: #415394;
+}
+
+#logofoot:hover,
+#pagefoot:hover,
+#linkinfoot:hover,
+#contactfoot:hover {
+    border: 3px solid red;
+    border-radius: 100%;
+}
+
+/* Home Only */
+.index-page {
+    background: linear-gradient(90deg, #2C4292 30%, white 0%)
+}
+.homecolumns{
+    display: inline-flex;
+    justify-content: center;
+}
+
+#homeimg {
+    margin: 30px;
+    margin-top: 120px;
+    max-width: 30%;
+    border-radius: 100%;
+    box-shadow: 8px 8px 4px black;
+}
+
+.bio {
+    display: inline-block;
+    width: 600px;
+    margin: auto;
+}
+
+.bio a {
+    font-size: 20px;
+    width: 140px;
+    height: 120px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border-left: 1px solid grey;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #252525;
+}
+
+.about-me,
+.portfolio,
+.contact-me {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+
+.about-me {
+    background-color: #FFD8B1;
+}
+
+#about-graphic {
+    max-height: 120px;
+    width: auto;
+    filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(10deg);
+}
+
+.portfolio {
+    background-color: #C27F79;
+}
+
+#portfolio-graphic {
+    max-height: 120px;
+    width: auto;
+    filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(340deg);
+}
+
+.contact-me {
+    background-color: #610023;
+}
+
+#contact-graphic {
+    max-height: 120px;
+    width: auto;
+    filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(300deg);
+}
+
+.about-me:hover ,
+.portfolio:hover,
+.contact-me:hover {
+    font-weight: 600;
+    border: 3px solid black;
+    box-shadow: 8px 8px 4px black;
+}
+
+/* Contact Me Only */
+.contact-columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.ContactForm {
+    margin-right: 30px;
+    width: 100%;
+}
+
+form {
+    margin: 50px auto;
+    width: 50%;
+}
+
+.form-item {
+    padding: 5px;
+}
+
+.form-label {
+    width: 20%;
+    height: 20px;
+    display: inline-block;
+    text-align: right;
+}
+
+.form-item button {
+    width: 95%;
+    background-color: #2C4292;
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;
+}
+
+#message-group,
+#message {
+    vertical-align: middle;
+}
+
+.form-item input,
+.form-item textarea {
+    width: 70%;
+    height: 20px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form-item input,
+.form-item textarea,
+.form-item button {
+    border: 2px solid #2C4292;
+    padding: 5px;
+    font-size: 18px;
+}
+.form-item input:hover,
+.form-item textarea:hover,
+.form-item button:hover {
+    font-weight: 900;
+    border: 3px solid black;
+    color: #2C4292;
+}
+
+/* Portfolio Only */
+h3 {
+    margin-top: 120px;
+    text-align: center;
+    font-style: normal;
+}
+
+#portfolio-columns {
+    width: 90%;
+    margin: auto;
+}
+
+.portfolio-column {
+    width: 30%;
+    height: 350px;
+    padding: 2px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.portfolio-column img{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+h4 {
+    margin-top: 5px;
+    font-size: 25px;
+    color: #2C4292;
+    font-style: normal;
+    display: inline-block;
+    margin-left: 0;
+}
+
+#project-lang {
+    margin: 0;
+    color: black;
+    font-size: 15px;
+}
+
+.portfolio-column p {
+    font-size: 12px;
+    color: rgb(90, 90, 90);
+    margin-top: 5px;
+}
+
+/* About Me Only */
+#about-columns {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.about-column {
+    width: 48%;
+    height: 300px;
+    padding: 2px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.about-column img{
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    display: inline-flex;
+}
+
+.about-info {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    float: right;
+    height: 440px;
+}
+
+.about-column p {
+    font-size: 12px;
+    color: rgb(90, 90, 90);
+    margin-top: 5px;
+}
+
+/* Page Info Only */
+
+
+
+
+

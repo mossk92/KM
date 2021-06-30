@@ -91,3 +91,28 @@
         Image Shadow:           #000000; black
         Home Page Border:       #808080, grey
         Home Page Border:       #252525, Off-Black
+
+##### Words
+    About Me
+        Summary
+            Passion for driving efficiency and learning new skills. 
+        Code
+            I really enjoy data and learning new skills. So being able to combine those two things would be amazing. 
+            There has been a fairly recent shift in how technology is embedded into roles, and I've seen leaders being more receptive to the 'ordinary' person being apple to apply any skills they have to improve processes (rather than sticky to traditional swim-lanes of roles).
+            So, I have started seeing the ability to immediately apply new skills, even if there are no specific roles available. 
+        Work
+            I am currently a Logistics Planner with BHP. The role offers a lot of flexibility and diversity of tasks meaning, despite being in the role for over three years, I am still not bored. 
+            My key responsibility is to provide long term, strategic planning for all rail and port activities. 
+            The main aim is to ensure logistics is effective in providing certainty of production through enabling continued growth of coal production and enhancing competitive advantage through the supply chain.
+            My career aspirations are to continue advancing my analytical skills in roles that drive efficiency and productivity improvements through root cause analysis.
+
+        Home
+            I am fortunate to have just recently build my first home, receiving the keys shortly after the first 2020 lockdown.
+            I share the place with my 1 year old cavoodle, Mila. Who has been the best companion over the past twelve month. 
+            I have been living in Brisbane for the past 5 years ,having spent most of my life in central Queensland – I’m enjoying the optionality that comes with the city lifestyle.
+        Play
+            After completely burning out during 2020, I've started focusing on a better work / life balance. My two key hobbies are:
+            Horse riding: I’ve been riding for over three years. I don’t participate in events but enjoy western-style riding including trail rides, obstacle work and mustering.
+            Lego: my nephews gifted me some lego for Christmas a few years ago and since then I have been obsessed. My preference is for the Technic and Creator ranges with my  favourite build so far has been the Defender.
+
+ 

@@ -324,11 +324,16 @@ form {
     font-size: 18px;
 }
 .form-item input:hover,
-.form-item textarea:hover,
-.form-item button:hover {
+.form-item textarea:hover {
     font-weight: 900;
     border: 3px solid #000000;
     color: #2C4292;
+}
+
+.form-item button:hover {
+    font-weight: 900;
+    border: 3px solid #000000;
+    color: aliceblue;
 }
 
 /* Portfolio Only */

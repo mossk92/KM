@@ -144,11 +144,12 @@ h4 {
 }
 
 footer p {
-    max-width: 80%;
+    max-width: 60%;
     height: 40px;
     margin: 0;
     margin-left: 10px;
     font-size: 10px;
+    color: aliceblue;
 }
 
 footer a,

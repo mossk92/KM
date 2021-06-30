@@ -7,8 +7,8 @@ html {
     font-weight: 400;
     font-style: italic;
     width: 100%;
-    color: black;
-    background: white;
+    color: #000000;
+    background: #FFFFFF;
 }
 
 body {
@@ -35,7 +35,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #FFFFFF;
     font-variant: small-caps;
     font-size: 15px;
     padding: 8px;
@@ -53,15 +53,15 @@ nav a {
 }
 
 #active-page {
-    color: black;
+    color: #000000;
     text-transform: capitalize;
     font-size: 20px;
     font-weight: bold;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF;
 }
 
 h1 {
-    color: white;
+    color: #FFFFFF;
     margin: 0;
     margin-top: 30px;
     margin-left: 200px;
@@ -70,11 +70,12 @@ h1 {
 }
 
 h2 {
-    color: white;
+    color: #FFFFFF;
     margin: 0;
     font-size: 20px;
     font-family: 'Bradley Hand', cursive;
     font-variant: small-caps;
+    font-style: normal;
 }
 
 h3 {
@@ -140,7 +141,7 @@ h4 {
 #logofoot {
     max-width: 50px;
     border-radius: 100%;
-    border: 4px solid black;
+    border: 4px solid #000000;
 }
 
 footer p {
@@ -168,7 +169,7 @@ nav a:hover {
     font-weight: bold;
     font-size: larger;
     border-radius: 8px;
-    box-shadow: 8px 8px 4px black;
+    box-shadow: 8px 8px 4px #000000;
     background: #415394;
 }
 
@@ -182,7 +183,7 @@ nav a:hover {
 
 /* Home Only */
 .index-page {
-    background: linear-gradient(90deg, #2C4292 30%, white 0%)
+    background: linear-gradient(90deg, #2C4292 30%, #FFFFFF 0%)
 }
 .homecolumns{
     display: inline-flex;
@@ -195,7 +196,7 @@ nav a:hover {
     max-width: 30%;
     height: auto;
     border-radius: 100%;
-    box-shadow: 8px 8px 4px black;
+    box-shadow: 8px 8px 4px #000000;
 }
 
 .bio {
@@ -208,8 +209,8 @@ nav a:hover {
     font-size: 20px;
     width: 140px;
     height: 120px;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: #FFFFFF;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
     border-left: 1px solid grey;
     text-decoration: none;
     display: inline-flex;
@@ -261,8 +262,8 @@ nav a:hover {
 .portfolio:hover,
 .contact-me:hover {
     font-weight: 600;
-    border: 3px solid black;
-    box-shadow: 8px 8px 4px black;
+    border: 3px solid #000000;
+    box-shadow: 8px 8px 4px #000000;
 }
 
 /* Contact Me Only */
@@ -295,7 +296,7 @@ form {
 .form-item button {
     width: 95%;
     background-color: #2C4292;
-    color: white;
+    color: #FFFFFF;
     font-weight: 600;
     border-radius: 25px;
 }
@@ -326,7 +327,7 @@ form {
 .form-item textarea:hover,
 .form-item button:hover {
     font-weight: 900;
-    border: 3px solid black;
+    border: 3px solid #000000;
     color: #2C4292;
 }
 
@@ -352,7 +353,7 @@ form {
 
 #project-lang {
     margin: 0;
-    color: black;
+    color: #000000;
     font-size: 15px;
 }
 
@@ -396,13 +397,13 @@ form {
 
 .about-column p {
     font-size: 12px;
-    color: rgb(90, 90, 90);
+    color: #5A5A5A;
     margin-top: 5px;
 }
 
 .about-column li {
     font-size: 12px;
-    color: rgb(90, 90, 90);
+    color: #5A5A5A;
     margin-top: 5px;
 }
 

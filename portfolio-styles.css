@@ -6,6 +6,10 @@ html {
     background: #FFFFFF;
 }
 
+.index-page {
+    background: linear-gradient(90deg, #2C4292 30%, #FFFFFF 0%)
+}
+
 body {
     margin: 0;
     min-height: calc(100vh - 80px);
@@ -167,18 +171,16 @@ footer p {
     border-radius: 100%;
 }
 
-/* Home Only */
-.index-page {
-    background: linear-gradient(90deg, #2C4292 30%, #FFFFFF 0%)
-}
+/* Home Page */
 .homecolumns{
     display: inline-flex;
     justify-content: center;
+    align-items: center;
 }
 
 #homeimg {
-    margin: 30px;
-    margin-top: 120px;
+    margin: 5%;
+    margin-top: 15%;
     max-width: 30%;
     height: auto;
     border-radius: 100%;
@@ -186,32 +188,24 @@ footer p {
 }
 
 .bio {
-    display: inline-block;
-    width: 600px;
-    margin: auto;
+    display: block;
 }
 
 .bio a {
-    font-size: 20px;
-    width: 140px;
-    height: 120px;
+    font-size: 150%;
+    width: 80%;
     color: #FFFFFF;
     text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
-    border-left: 1px solid grey;
     text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #252525;
 }
 
 .about-me,
 .portfolio,
 .contact-me {
-    margin: 50px;
-    display: flex;
+    margin: auto;
+    margin-top: 5%;
     align-items: center;
-    height: 120px;
+    width: 80%;
 }
 
 .about-me {
@@ -219,8 +213,7 @@ footer p {
 }
 
 #about-graphic {
-    max-height: 120px;
-    width: auto;
+    width: 100%;
     filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(10deg);
 }
 
@@ -229,8 +222,7 @@ footer p {
 }
 
 #portfolio-graphic {
-    max-height: 120px;
-    width: auto;
+    width: 100%;
     filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(340deg);
 }
 
@@ -239,17 +231,15 @@ footer p {
 }
 
 #contact-graphic {
-    max-height: 120px;
-    width: auto;
+    width: 100%;
     filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(300deg);
 }
 
 .about-me:hover ,
 .portfolio:hover,
 .contact-me:hover {
-    font-weight: 600;
-    border: 3px solid #000000;
-    box-shadow: 8px 8px 4px #000000;
+    border: 3px solid #ffffff;
+    box-shadow: 8px 8px 4px #2C4292;
 }
 
 /* Contact Me Only */

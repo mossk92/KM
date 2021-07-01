@@ -400,3 +400,54 @@ form {
     color: #5A5A5A;
     margin-top: 5px;
 }
+
+/* Response: Larger then 500px */
+
+@media (min-width: 500px) {
+        nav {
+        margin-top: 15px;
+        padding: 0;
+    }
+
+    body {
+        min-height: calc(100vh - 120px);
+        padding-bottom: 140px;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    footer p {
+        height: 40px;
+        font-size: 10px;
+        color: aliceblue;
+        margin-left: 10px;
+    }
+
+    .footcolumn {
+        margin: 0px 20px;
+    }
+    
+    #logofoot {
+        max-width: 30px;
+    }
+    
+    #pagefoot {
+        width: 32px;;
+    }
+    
+    .iconfoot {
+        width: 32px;
+    }
+
+    .bio {
+        display: inline-block;
+        width: 55%;
+        margin-top: 5%;
+    }
+
+    .bio a {
+        font-size: 200%;
+    }
+}

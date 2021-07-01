@@ -44,7 +44,7 @@
         Page Info: images/wireframe-5.png
 
 ### Typography
-    Default: 'Roboto', sans-serif;
+    Default: 'Work Sans', sans-serif;
     H1: 'Bradley Hand', 'Calligraffitti', cursive;
     H2: 'Bradley Hand', cursive;
 

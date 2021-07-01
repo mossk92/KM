@@ -200,6 +200,10 @@ footer p {
     text-decoration: none;
 }
 
+.home-nav {
+    margin-left: 2%;
+}
+
 .about-me,
 .portfolio,
 .contact-me {
@@ -207,6 +211,8 @@ footer p {
     margin-top: 5%;
     align-items: center;
     width: 80%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;   
 }
 
 .about-me {

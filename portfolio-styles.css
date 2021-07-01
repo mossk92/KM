@@ -410,6 +410,9 @@ form {
     }
 
     body {
+        min-height: calc(100vh - 185px);
+    }
+    #home-page-body {
         min-height: calc(100vh - 120px);
         padding-bottom: 140px;
     }

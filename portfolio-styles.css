@@ -404,7 +404,7 @@ form {
 /* Response: Larger then 500px */
 
 @media (min-width: 500px) {
-        nav {
+    nav {
         margin-top: 15px;
         padding: 0;
     }

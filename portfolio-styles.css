@@ -179,15 +179,14 @@ footer p {
 }
 
 /* Home Page */
-.homecolumns{
-    display: inline-flex;
+.home-columns{
+    display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 5%;
 }
 
 #homeimg {
     margin: 5%;
-    margin-top: 15%;
     max-width: 30%;
     height: auto;
     border-radius: 100%;
@@ -410,9 +409,6 @@ form {
     }
 
     body {
-        min-height: calc(100vh - 185px);
-    }
-    #home-page-body {
         min-height: calc(100vh - 120px);
         padding-bottom: 140px;
     }
@@ -444,10 +440,13 @@ form {
         width: 32px;
     }
 
+    #homeimg {
+        height: 30%;
+    }
+
     .bio {
         display: inline-block;
         width: 55%;
-        margin-top: 5%;
     }
 
     .bio a {

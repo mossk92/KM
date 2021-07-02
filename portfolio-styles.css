@@ -274,60 +274,57 @@ footer p {
 }
 
 form {
-    max-width: 600px;
+    max-width: 500px;
+    padding: 0 10px;
 }
 
 .form-item {
-    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: rgba(41,64,151,0.3);
+    padding: 10px 20px;
+    outline: none;
+    color: #5A5A5A;
+    transition: 0.5s;
 }
 
-.form-label {
-    width: 30%;
-    height: 20px;
-    display: inline-block;
-    text-align: right;
+form textarea {
+    resize: none;
+    font-family: 'Work Sans', sans-serif;
+    height: 120px;
 }
 
-.form-item input,
-.form-item textarea {
-    width: 62%;
-    float: right;
-    height: 20px;
-    border-radius: 5px;
+form input:hover,
+form textarea:hover {
+    border: 2px solid #2c4292;
 }
 
-.form-item input,
-.form-item textarea,
-.form-item button {
-    border: 2px solid #2C4292;
-    padding: 5px;
-    font-size: 16px;
-}
-
-.form-item button {
-    float: right;
-    width: 40%;
-    background-color: #2C4292;
-    color: #FFFFFF;
-    font-weight: 600;
-    border-radius: 25px;
-}
-
-#message-group,
-#message {
-    vertical-align: middle;
-}
-
-.form-item input:hover,
-.form-item textarea:hover {
+form input:focus,
+form textarea:focus {
+    box-shadow: 0 0 10px 4px #2c4292;
     font-weight: 900;
-    border: 3px solid #000000;
     color: #2C4292;
 }
 
-.form-item button:hover {
+form button {
+    float: right;
+    border: 0;
+    background: #5d6a94;
+    color: #ffffff;
+    width: 100px;
+    height: 30px;
+    border-radius:  20px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+}
+
+form button:hover {
+    background: #2c4292;
     font-weight: 900;
-    border: 3px solid #000000;
     color: aliceblue;
 }
 

@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <meta name="Description" content="Portfolio-Contact">
         <meta name="owner" content="Katie Moss">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
         <link rel="stylesheet" href="../portfolio-styles.css">
     </head>
     <body>
@@ -16,30 +18,17 @@
             </nav>
         </header>
         <section class="contact-columns">
-            <img id="homeimg" src="../images/contact-img.jpeg">
+            <img id="contactimg" src="../images/contact-img.jpeg">
             <div class="ContactForm">
                 <p id="contact-title">
                     I would love to hear from you. If you have any feedback or would like to get in touch, please fill out the information below and I will reach out to you.
                 </p>
                 <form action="https://formspree.io/f/mleanygw" method="post">
-                    <div class="form-item">
-                        <label class="form-label" for="name">Name</label>
-                        <input types="text" id="name" name="name">
-                    </div>
-                    <div class="form-item">
-                        <label class="form-label" for="mail">Email</label>
-                        <input type="email" id="mail" name="email">
-                    </div>
-                    <div class="form-item">
-                        <label class="form-label" for="phone">Phone</label>
-                        <input id="tel" name="Phone Number">
-                    </div>
-                    <div class="form-item" id="message-group">
-                        <label class="form-label" for="message">Message</label>
-                        <textarea id="message" name="message"></textarea>
-                    </div>
-                    <div class="form-item">
-                        <button type="submit">Send</button>
+                    <input types="text" id="name" class="form-item" placeholder="Your Name">
+                    <input type="email" id="mail" class="form-item" placeholder="Your Email">
+                    <input id="tel" class="form-item" placeholder="Your Phone Number">
+                    <textarea id="message" class="form-item" placeholder="Your Message"></textarea>
+                    <button type="submit">Send</button>
                     </div>
                 </form>
             </div> 

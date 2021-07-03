@@ -81,6 +81,7 @@
             I really enjoy data and learning new skills. So being able to combine those two things would be amazing. 
             There has been a fairly recent shift in how technology is embedded into roles, and I've seen leaders being more receptive to the 'ordinary' person being apple to apply any skills they have to improve processes (rather than sticky to traditional swim-lanes of roles).
             So, I have started seeing the ability to immediately apply new skills, even if there are no specific roles available. 
+            I'm really excited to be part of the 2021 She Codes Plus Brisbane Cohort, where I can learn lots of these skills.
         Work
             I am currently a Logistics Planner with BHP. The role offers a lot of flexibility and diversity of tasks meaning, despite being in the role for over three years, I am still not bored. 
             My key responsibility is to provide long term, strategic planning for all rail and port activities. 

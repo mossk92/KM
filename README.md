@@ -1,7 +1,15 @@
-# Portfolio
+# Page Links
+    Github Repository:
+        https://github.com/mossk92/mossk92.github.io
 
+    Githib Pages:
+        https://mossk92.github.io/
+
+    Really keen for as much feedback as possible (no matter how small) including process and writing habits to put in place now. 
+
+## Portfolio
     Due
-        Sunday 4th June at 11.59pm.
+        Sunday 4th July at 11.59pm.
 
     Description
         Your task is to create a portfolio site to showcase your work. 
@@ -36,63 +44,36 @@
         Paste a link to your repository in this file.
         Upload this file.
 
-## Wireframe
+### Wireframe
     Homepage: images/wireframe-1.png
         About: images/wireframe-2.png
         Portfolio: images/wireframe-3.png
         Contact: images/wireframe-4.png
         Page Info: images/wireframe-5.png
 
-### Typography
-    Default: 'Work Sans', sans-serif;
-    H1: 'Bradley Hand', 'Calligraffitti', cursive;
-    H2: 'Bradley Hand', cursive;
+#### Typography
+    'Work Sans', sans-serif;
+    'Calligraffitti', 'Bradley Hand', cursive;
 
-#### Brand Colours
-    Background
-        Generic:                #FFFFFF; white
-        Color Pop:              #2c4292; blue
-        Nav Hover background:   #415394; blue         
-        Home page About Me:     #FFD8B1; Yellow
-            Tint:               sepia(100%) saturate(200%) brightness(70%) hue(10deg) 
-        Home page About Me:     #C27F79; Pink
-            Tint:               sepia(100%) saturate(200%) brightness(70%) hue(340deg) 
-        Home page About Me:     #610023; Maroon
-            Tint:               sepia(100%) saturate(200%) brightness(70%) hue(300deg) 
-        Button:                 #2c4292; blue
+##### Brand Colours
+    #000000; black
+    #FFFFFF; white
+    #2c4292; blue
+    #415394; blue 
+    #EEF8FF, aliceblue
+    #5A5A5A; grey 
+    #808080, grey
+    #FF0000; red
+    #252525, Off-Black
 
-    Text
-        Generic:                #000000; black
-        Nav:                    #FFFFFF; white
-        Nav Active:             #000000; black
-        Nav Activie Outline:    #FFFFFF; white
-        H1:                     #FFFFFF; white
-        H2:                     #FFFFFF; white
-        H2 sub (portfolio)      #000000; black
-        H4:                     #2c4292; blue
-        Footer Text:            #EEF8FF, aliceblue
-        Home Page:              #FFFFFF; white
-        Home Page Outline:      #000000; black
-        Button:                 #FFFFFF; white
-        Form input hover:       #2c4292; blue 
-        Paragraph:              #5A5A5A; grey             
+    #FFD8B1; Yellow
+        sepia(100%) saturate(200%) brightness(70%) hue(10deg) 
+    #C27F79; Pink
+        sepia(100%) saturate(200%) brightness(70%) hue(340deg) 
+    #610023; Maroon
+        sepia(100%) saturate(200%) brightness(70%) hue(300deg) 
 
-    Border
-        Nav:                    #808080, grey
-        Logo:                   #000000; black
-        Footer Hover:           #FF0000; red
-        Home Page:              #808080, grey
-        Home Page:              #252525, Off-Black
-        Home Page Hover:        #000000; black
-        Form Input:             #2c4292; blue
-
-    Other
-        Nav Hover shadow:       #000000; black
-        Image Shadow:           #000000; black
-        Home Page Border:       #808080, grey
-        Home Page Border:       #252525, Off-Black
-
-##### Words
+###### Words
     About Me
         Summary
             Passion for driving efficiency and learning new skills. 
@@ -114,5 +95,3 @@
             After completely burning out during 2020, I've started focusing on a better work / life balance. My two key hobbies are:
             Horse riding: I’ve been riding for over three years. I don’t participate in events but enjoy western-style riding including trail rides, obstacle work and mustering.
             Lego: my nephews gifted me some lego for Christmas a few years ago and since then I have been obsessed. My preference is for the Technic and Creator ranges with my  favourite build so far has been the Defender.
-
- 

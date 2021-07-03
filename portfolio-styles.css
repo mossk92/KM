@@ -152,8 +152,9 @@ footer p {
 }
 
 #logofoot {
-    max-width: 50px;
+    max-width: 48px;
     border-radius: 100%;
+    border: 1px solid #000000;
 }
 
 .iconfoot {
@@ -179,7 +180,7 @@ footer p {
     max-width: 30%;
     height: auto;
     border-radius: 100%;
-    box-shadow: 8px 8px 4px #000000;
+    box-shadow: 0 0 20px 15px #000000;
 }
 
 .bio {
@@ -256,7 +257,7 @@ footer p {
     width: 30%;
     height: 30%;
     border-radius: 100%;
-    box-shadow: 8px 8px 4px black;
+    box-shadow: 0 0 20px 15px #000000;
 }
 
 .ContactForm {

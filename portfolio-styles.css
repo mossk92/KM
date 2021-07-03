@@ -152,8 +152,9 @@ footer p {
 }
 
 #logofoot {
-    max-width: 50px;
+    max-width: 48px;
     border-radius: 100%;
+    border: 1px solid #000000;
 }
 
 .iconfoot {

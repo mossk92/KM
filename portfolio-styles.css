@@ -126,17 +126,14 @@ footer {
 }
 
 .footcolumn {
-    margin: 0px 10px;
     display: inline-block;
     height: 80px;
 }
 
 .logocolumn,
-.pagecolumn,
 .contactcolumn {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
 }
 
 footer p {
@@ -157,10 +154,6 @@ footer p {
 #logofoot {
     max-width: 50px;
     border-radius: 100%;
-}
-
-#pagefoot {
-    width: 50px;;
 }
 
 .iconfoot {
@@ -415,10 +408,6 @@ form button:hover {
     header {
         height: 80px;
     }
-    
-    nav a {
-        /* margin: 0px 10px; */
-    }
 
     h2 {
         font-size: 150%;
@@ -435,17 +424,10 @@ form button:hover {
     .footcolumn {
         margin: 0px 20px;
     }
-    
-    #logofoot {
-        max-width: 30px;
-    }
-    
-    #pagefoot {
-        width: 32px;;
-    }
-    
+
+    #logofoot,
     .iconfoot {
-        width: 32px;
+        width: 40px;
     }
 
     .home-columns{

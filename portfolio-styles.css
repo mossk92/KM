@@ -123,12 +123,12 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .footcolumn {
     display: inline-block;
-    height: 80px;
+    height: 90px;
+    padding-top: 10px;
 }
 
 .logocolumn,

@@ -12,9 +12,8 @@ html {
 
 body {
     margin: 0;
-    min-height: calc(100vh - 60px);
+    min-height: calc(100vh - 0px);
     position: relative;
-    padding-bottom: 95px;
 }
 
 header {
@@ -115,11 +114,8 @@ h4 {
     text-align: center;
 }
 
-.footer-div {
-    position: absolute;
-    bottom: 0;
+footer {
     width: 100%;
-    height: 80px;
     background-color: #2c4292;
     display: flex;
     align-items: center;
@@ -180,7 +176,7 @@ footer p {
 .home-columns{
     display: block;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 70px;
 }
 
 #homeimg {
@@ -193,6 +189,7 @@ footer p {
 
 .bio {
     display: block;
+    padding-bottom: 10px;
 }
 
 .bio a {
@@ -261,8 +258,8 @@ footer p {
 
 #contactimg {
     margin: 5%;
-    max-width: 30%;
-    height: auto;
+    width: 30%;
+    height: 30%;
     border-radius: 100%;
     box-shadow: 8px 8px 4px black;
 }
@@ -419,10 +416,6 @@ form button:hover {
         margin: 0px 10px;
     }
 
-    body {
-        padding-bottom: 80px;
-    }
-
     h2 {
         font-size: 150%;
     }
@@ -453,7 +446,6 @@ form button:hover {
 
     .home-columns{
         display: flex;
-        margin-top: 10%;
     }
 
     #homeimg {

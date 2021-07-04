@@ -5,8 +5,6 @@
     Githib Pages:
         https://mossk92.github.io/
 
-    Really keen for as much feedback as possible (no matter how small) including process and writing habits to put in place now. 
-
 ## Portfolio
     Due
         Sunday 4th July at 11.59pm.

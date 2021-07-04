@@ -402,9 +402,9 @@ footer p {
         color: aliceblue;
     }
 
-/* Response: Larger then 500px */
+/* Response: Larger then 600px */
 
-@media (min-width: 500px) {  
+@media (min-width: 600px) {  
     nav a {
         margin: 0 20px;
         padding-top: 18px;
@@ -442,7 +442,7 @@ footer p {
 
     /* About Me Only */
         #about-columns {
-            padding: 20px 0;
+            /* padding: 20px 0; */
         }    
     
         .about-column {
@@ -450,13 +450,64 @@ footer p {
             display: inline-block;
         }    
         .about-column img{
-            height: 100%;
+            max-width: 30%;
+            height: auto;
             width: auto;
             margin: 0;
         }
+
+        .about-info {
+            /* width: 50%; */
+        }
+
         .about-column p {
             margin-top: 10px;
         }
+
+
+        #about-columns {
+            /* width: 90%; */
+            /* display: block; */
+            /* margin: auto; */
+            /* margin-top: 20px; */
+        }
+    
+        .about-column {
+            /* height: 300px; */
+            /* margin: 5px; */
+        }
+    
+        .about-column img{
+            /* width: 30%; */
+            /* height: auto; */
+            /* object-fit: cover; */
+            /* border-radius: 10px; */
+            /* display: inline-flex; */
+            /* margin-top: 35px; */
+        }
+    
+        .about-info {
+            /* display: inline; */
+            /* align-items: center; */
+            /* justify-content: center; */
+            /* width: 68%; */
+            /* float: right; */
+        }
+    
+        .about-column p {
+            /* font-size: 12px; */
+            /* color: rgb(90, 90, 90); */
+            /* margin: 0; */
+        }
+    
+        .about-column li {
+            /* font-size: 12px; */
+            /* color: rgb(90, 90, 90); */
+            /* margin: 0; */
+        }
+
+
+
     /* Portfolio Only */
         .portfolio-column {
             display: inline-block;        

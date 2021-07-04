@@ -430,80 +430,30 @@ footer p {
         margin-left: 10px;
     }
 
-
-
-
-
-
-
-
-    
-    
-    
-    
-    
-    
-    
-    
     /* Home Page */
-    .home-columns{
-        /* display: block;
-        justify-content: center; */
-    }
+        .home-columns{
+            display: flex;
+            padding-bottom: 20px;
+        }
+
+        #homeimg {
+            height: 30%;
+        }
+
+
     
-    #homeimg {
-        /* margin: 5%;
-        max-width: 30%;
-        height: auto;
-        border-radius: 100%;
-        box-shadow: 0 0 20px 15px #000000; */
-    }
     
-    .bio {
-        /* display: block;
-        padding-bottom: 10px; */
-    }
     
-    .bio a {
-        /* font-size: 150%;
-        width: 80%;
-        color: #FFFFFF;
-        text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
-        text-decoration: none; */
-    }
+
+}
+
+
+
+
+
     
-    .home-nav {
-        /* margin-left: 2%; */
-    }
     
-    .about-me,
-    .portfolio,
-    .contact-me {
-        /* margin: auto;
-        margin-top: 5%;
-        align-items: center;
-        width: 80%;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;    */
-    }
-    
-    .about-me {
-        /* background-color: #FFD8B1; */
-    }
-    
-    #about-graphic {
-        /* width: 100%; */
-        /* filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(10deg); */
-    }
-    
-    .portfolio {
-        /* background-color: #C27F79; */
-    }
-    
-    #portfolio-graphic {
-        /* width: 100%; */
-        /* filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(340deg); */
-    }
+
     
     .contact-me {
         /* background-color: #610023; */
@@ -700,23 +650,7 @@ footer p {
 
 
 
-    .home-columns{
-        /* display: flex; */
-        /* padding-bottom: 20px; */
-    }
 
-    #homeimg {
-        /* height: 30%; */
-    }
-
-    .bio {
-        /* display: inline-block; */
-        /* width: 55%; */
-    }
-
-    .bio a {
-        /* font-size: 200%; */
-    }
 
     #about-columns {
         /* width: 90%;

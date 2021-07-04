@@ -77,7 +77,7 @@
             Passion for driving efficiency and learning new skills. 
         Code
             I really enjoy data and learning new skills. So being able to combine those two things would be amazing. 
-            There has been a fairly recent shift in how technology is embedded into roles, and I've seen leaders being more receptive to the 'ordinary' person being apple to apply any skills they have to improve processes (rather than sticky to traditional swim-lanes of roles).
+            There has been a fairly recent shift in how technology is embedded into roles, and I've seen leaders being more receptive to the 'ordinary' person being able to apply any skills they have to improve processes (rather than stick to traditional swim-lanes of roles).
             So, I have started seeing the ability to immediately apply new skills, even if there are no specific roles available. 
             I'm really excited to be part of the 2021 She Codes Plus Brisbane Cohort, where I can learn lots of these skills.
         Work
@@ -87,10 +87,10 @@
             My career aspirations are to continue advancing my analytical skills in roles that drive efficiency and productivity improvements through root cause analysis.
 
         Home
-            I am fortunate to have just recently build my first home, receiving the keys shortly after the first 2020 lockdown.
+            I am fortunate to have just recently build my first home, receiving the keys shortly after the first 2020 COVID lockdown.
             I share the place with my 1 year old cavoodle, Mila. Who has been the best companion over the past twelve month. 
-            I have been living in Brisbane for the past 5 years ,having spent most of my life in central Queensland – I’m enjoying the optionality that comes with the city lifestyle.
+            I have been living in Brisbane for the past 5 years, having spent most of my life in central Queensland – I’m enjoying the optionality that comes with the city lifestyle.
         Play
             After completely burning out during 2020, I've started focusing on a better work / life balance. My two key hobbies are:
             Horse riding: I’ve been riding for over three years. I don’t participate in events but enjoy western-style riding including trail rides, obstacle work and mustering.
-            Lego: my nephews gifted me some lego for Christmas a few years ago and since then I have been obsessed. My preference is for the Technic and Creator ranges with my  favourite build so far has been the Defender.
+            Lego: my nephews gifted me some lego for Christmas a few years ago and since then I have been obsessed. My preference is for the Technic and Creator ranges with my favourite build so far has been the Defender.
